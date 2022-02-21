@@ -4,8 +4,9 @@ import './App.css';
 import moment from "moment";
 
 function isIt222() {
-  const month = moment().month()+1
-  const date = moment().date()
+  const month = moment().month()+1;
+  const date = moment().date();
+  console.log('current date', month, date);
   if (month === 2 && date === 22) {
     return "Yes, it is two twenty-two."
   }
